@@ -1,0 +1,42 @@
+.menu__item{
+    margin-right: 10px;
+}
+
+.menu__body{
+    margin: 25px auto;
+}
+
+.menu__items li{
+    margin-bottom: 30px;
+    font-size: 20px;
+    font-family: SignPainter;
+}
+
+.menu__items li:hover{
+    color: #39ff14;
+    cursor: pointer;
+}
+
+.menu__home{
+    font-size: 20px;
+    font-family: SignPainter;
+    margin-bottom: 40px;
+}
+
+.menu__home:hover{
+    color: #39ff14;
+    cursor: pointer;
+}
+
+.menu__exit{
+    width: 30%;
+    font-size: 20px;
+    font-family: SignPainter;
+    margin-top: 70px;
+    background-color: transparent;
+}
+
+.menu__exit:hover{
+    color: #39ff14;
+    cursor: pointer;
+}

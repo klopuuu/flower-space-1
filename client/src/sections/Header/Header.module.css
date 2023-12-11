@@ -1,0 +1,12 @@
+.header{
+    background-color: transparent;
+    width: 1200px;
+    height: 130px;
+    display: flex;
+    align-items: flex-end;
+    margin: 0 auto;
+    padding-top: 100px;
+}
+.header img{
+    width: 150px;
+}

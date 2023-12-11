@@ -1,0 +1,184 @@
+.userhome{
+    background-color: rgba(62,87,176,.5);
+    width: 100vw;
+    height: 100vh;
+}
+
+.userhome__container{
+    width: 1350px;
+    height: 100%;
+    margin: 0 auto;
+    display: flex;
+}
+
+.userhome__body{
+    background-color: azure;
+    width: 100%;
+    height: 90%;
+    border-radius: 35px;
+    margin-top: 50px;
+    border: 2px solid #39ff14;
+    display: flex;
+}
+
+.userhome__menu{
+    background-color: azure;
+    width: 300px;
+    height: 105%;
+    display: flex;
+    border-radius: 35px;
+    border: 2px solid #39ff14;
+    margin-top: -20px;
+}
+
+.account{
+    width: 300px;
+}
+
+.message{
+    width: 800px;
+}
+
+.message__body{
+    border: 2px solid rgba(62,87,176,.5);
+    width: 550px;
+    height: 360px;
+    margin: 15px auto 0px auto;
+    border-radius: 50px;
+}
+
+.message__text{
+    font-size: 25px;
+    font-family: SignPainter;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.message__date{
+    font-size: 35px;
+    font-family: SignPainter;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.order{
+    width: 100%;
+    height: 250px;
+    overflow: scroll;
+    margin: 30px;
+}
+
+.order__info{
+    font-size: 25px;
+    font-family: SignPainter;
+    display: flex;
+    margin-bottom: 20px;
+    width: 500px;
+    border: 2px solid #39ff14;
+    border-radius: 30px;
+    padding: 10px;
+}
+
+.order__info:hover{
+    background-color:#212E23;
+    color: #39ff14;
+}
+
+.order__info div:not(:last-child){
+    margin-right: 40px;
+}
+
+.order__number{
+    margin-right: 15px;
+}
+
+.message__img1{
+    width: 30px;
+    height: 30px;
+    transform: rotate(180deg);
+    cursor: pointer;
+}
+
+.message__img2{
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+}
+
+.message__image{
+    display: flex;
+    width: 500px;
+    justify-content: space-between;
+    margin-left: 130px;
+    position: absolute;
+    margin-top:20px;
+}
+
+.notice__body{
+    border: 2px solid #39ff14;
+    width: 400px;
+    height: 230px;
+    margin: 30px auto 0px auto;
+    border-radius: 50px;
+
+}
+
+
+.notice__name{
+    font-size: 25px;
+    font-family: SignPainter;
+    margin-top: 20px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.notice__image{
+    width: 60px;
+    height: 60px;
+    border-radius: 20px;
+}
+
+.notice__info{
+    display: flex;
+    width: 380px;
+    font-size: 20px;
+    font-family: SignPainter;
+    padding: 0px;
+    margin: 0 auto;
+    text-align: center;
+    border-radius: 30px;
+    border:2px solid rgba(62,87,176,.5);
+}
+
+.notice__info div:not(:first-child){
+    width: 150px;
+    margin-top: 20px;
+}
+
+.notice__container{
+    overflow: scroll;
+    height: 140px;
+}
+
+.container__flex{
+    display: flex;
+}
+
+.calendar__body{
+    width: 300px;
+    height: 2080px;
+}
+
+.calendar__body .Calendar{
+    width: 100%;
+}
+
+.order__calendar{
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+    margin-top: 5px;
+    margin-left: 10px;
+    position: absolute;
+}
+

@@ -1,0 +1,115 @@
+.inspiration{
+    background-color: rgba(62,87,176,.5);
+    width: 100vw;
+    height: 100vh;
+}
+
+.inspiration__container{
+    width: 1350px;
+    height: 100%;
+    margin: 0 auto;
+    display: flex;
+}
+
+.inspiration__body{
+    background-color: azure;
+    width: 100%;
+    height: 90%;
+    border-radius: 35px;
+    margin-top: 50px;
+    border: 2px solid #39ff14;
+    display: flex;
+}
+
+.inspiration__menu{
+    background-color: azure;
+    width: 300px;
+    height: 105%;
+    display: flex;
+    border-radius: 35px;
+    border: 2px solid #39ff14;
+    margin-top: -20px;
+}
+
+.inspiration__data{
+    padding-left: 30px;
+    width: 1000px;
+    font-size: 20px;
+    font-family: SignPainter;
+    display: flex;
+}
+
+.generate__image{
+    width: 700px;
+    height: 550px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 80px;
+    margin-left: 50px;
+}
+
+.generate__body_img{
+    width: 270px;
+    height: 270px;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.generate__body_img img{
+    width: 100%;
+    height: 100%;
+    border: 1px solid #39ff14;
+    border-radius: 10px;
+}
+
+.generate__btn{
+    padding: 10px 10px;
+    border-radius: 10px;
+    font-size: 16px;
+    background-color: #212E23;
+    color: #fff;
+    cursor: pointer;
+    transform: rotate(90deg);
+    width: 250px;
+    height: 40px;
+    margin-left: -105px;
+    margin-top: 195px;
+}
+
+.generate__btn:hover{
+    background-color: #fff;
+    color: #212E23;
+    border: 1px solid #39ff14;
+}
+
+.generate__paragraph {
+    font-size: 30px;
+    font-family: SignPainter;
+    text-transform: uppercase;
+}
+
+.inspiration__checkbox{
+    margin-top: 30px;
+}
+
+.generate__type input:not(:last-child){
+    margin-bottom: 30px;
+    margin-right: 15px;
+    background-color: #39ff14;
+}
+
+.generate__type{
+    font-size: 25px;
+    text-transform: uppercase;
+    border: 1px solid #39ff14;
+    width: 200px;
+    border-radius: 10px;
+    padding: 15px 15px 0px 15px;
+    margin-top: 80px;
+}
+
+.generate__flex{
+    display: flex;
+}

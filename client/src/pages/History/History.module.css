@@ -1,0 +1,715 @@
+.order{
+    background-color: rgba(62,87,176,.5);
+    width: 100vw;
+    height: 100vh;
+}
+
+.order__container{
+    width: 1350px;
+    height: 100%;
+    margin: 0 auto;
+    display: flex;
+}
+
+.order__body{
+    background-color: azure;
+    width: 100%;
+    height: 90%;
+    border-radius: 35px;
+    margin-top: 50px;
+    border: 2px solid #39ff14;
+    display: flex;
+}
+
+.order__menu{
+    background-color: azure;
+    width: 300px;
+    height: 105%;
+    display: flex;
+    border-radius: 35px;
+    border: 2px solid #39ff14;
+    margin-top: -20px;
+}
+
+.order__data{
+    padding-left: 30px;
+    width: 1000px;
+    font-size: 20px;
+    font-family: SignPainter;
+}
+
+.form__search{
+    font-size: 15px;
+    background-color:azure;
+    width: 190px;
+    height: 30px;
+    display: flex;
+}
+
+.order__list{
+    height: 500px;
+    overflow: scroll;
+    border-top: 2px solid;
+}
+
+.search__order{
+    width: 20px;
+    height: 20px;
+    margin-right: 5px;
+    margin-top: 5px;
+    cursor: pointer;
+}
+
+.order__search{
+    margin-left: 550px;
+    display: flex;
+}
+
+.order__paragraph{
+    font-size: 30px;
+}
+
+.container_flex{
+    display: flex;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+
+.order__article_image{
+    transform: rotate(315deg);
+    width: 30px;
+    cursor: pointer;
+    margin-left: 950px;
+    position: absolute;
+}
+
+.order__article_image_close{
+    transform: rotate(315deg);
+    width: 30px;
+    margin-top: 10px;
+    margin-left: 5px;
+    cursor: pointer;
+    display: none;
+    transform: rotate(90deg);
+    margin-left: 600px;
+}
+
+.order__add_info_order{
+    margin-top: -18px;
+}
+
+.order__add_info_order form{
+    text-align: center;
+}
+
+.order__add_input input{
+    background-color: transparent;
+    border: 1px dashed #39ff14;
+    width: 300px;
+    min-height: 40px;
+    margin-top: 10px;
+    padding-left: 5px;
+    font-size: 25px;
+    border-bottom: 1px solid #39ff14;
+    font-family: SignPainter;
+}
+
+.order__add_label{
+    font-size: 40px;
+    font-family: SignPainter;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.btn{
+    font-family: SignPainter;
+    font-size: 25px;
+    padding: 5px 10px;
+    background-color: #212E23;
+    color: white;
+    border-radius: 30px;
+    margin-top: 15px;
+}
+
+.order__article_add{
+    transform: rotate(315deg);
+    width: 40px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.order__add_btn{
+    margin-top: 10px;
+}
+
+.input_addly{
+    overflow: scroll;
+    resize: none;
+    padding-top: 5px;
+    background-color: azure;
+    border: 1px dashed #39ff14;
+    width: 300px;
+    min-height: 40px;
+    margin-top: 10px;
+    padding-left: 5px;
+    font-size: 25px;
+    border-bottom: 1px solid #39ff14;
+    font-family: SignPainter;
+}
+
+.order__add_input label{
+    margin-right: 5px;
+}
+
+.order__add_datereq,.order__add_dateres{
+    width: 210px !important;
+}
+
+.order__view_info{
+    margin-top: 30px;
+    display: flex;
+    text-align: center;
+    height: 70px;
+    border-bottom: 1px solid black;
+    position: relative;
+}
+
+.order__view_info div{
+    width: 180px;
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+   
+}
+
+.order__view_info:hover{
+    background-color: rgba(52, 52, 52, 0.8);
+    color: #39ff14;
+}
+
+.order__criteria ul{
+    display: flex;
+}
+
+.order__criteria ul li{
+    width: 180px;
+    margin-right: 5px;
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    font-size: 25px;
+}
+
+.order__add_select{
+    margin-top: 10px;
+    height: 40px;
+    font-family: SignPainter;
+    width: 300px;
+    font-size: 25px !important;
+    background-color: transparent;
+    padding-left: 5px;
+    color: black;
+    font: inherit;
+    border: 1px dashed #39ff14;
+    letter-spacing: inherit;
+    word-spacing: inherit;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    appearance: none;
+}
+
+
+.order__view_select{
+    height: 40px;
+    font-family: SignPainter;
+    width: 300px;
+    font-size: 20px;
+    background-color: transparent;
+    padding-left: 5px;
+    color: black;
+    font: inherit;
+    border: 1px solid black;
+    letter-spacing: inherit;
+    word-spacing: inherit;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    appearance: none;
+}
+  
+.order__add_select:not([multiple]) {
+    padding-right: 1.2em;
+    background-repeat: no-repeat;
+    background-position: calc(100% - 0.25em) 0.35em;
+    background-size: 0.85em auto;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 80 80'%3E%3Cpath d='M70.3 13.8L40 66.3 9.7 13.8z' fill='%23000'%3E%3C/path%3E%3C/svg%3E");
+}
+
+.order__view_select:not([multiple]) {
+    padding-right: 1.2em;
+    background-repeat: no-repeat;
+    background-position: calc(100% - 0.25em) 0.35em;
+    background-size: 0.85em auto;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 80 80'%3E%3Cpath d='M70.3 13.8L40 66.3 9.7 13.8z' fill='%23000'%3E%3C/path%3E%3C/svg%3E");
+}
+  
+.order__add_select::-ms-expand {
+    display: none;
+}
+
+.order__view_select::-ms-expand {
+    display: none;
+}
+
+.order__view_select:hover{
+    background-color: #39ff14;
+    color: black;
+}
+
+.order__view_tools{
+    width: 220px !important;
+    height: 20px !important;
+    font-size: 14px;
+    padding-top: 1px !important;
+    background-color: azure;
+    color: #212E23;
+    position: absolute;
+    border-radius: 30px;
+    border: 1px solid black;
+    margin-left: 300px;
+    margin-top: -10px;
+    text-align: center;
+    z-index: 5;
+}
+
+.order__view_description{
+    margin-top: 50px;
+}
+
+
+.descriptionorder{
+    margin-top: -40px;
+}
+
+.descriptionorder__bouquet{
+    width: 400px;
+    height: 400px;
+    margin-top: 5px;
+}
+
+.bouquet__image{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.descriptionorder__body{
+    display: flex;
+}
+
+.descriptionorder__info{
+    margin-top: 15px;
+}
+
+.descriptionorder__data{
+    margin-right: 30px;
+    margin-left: 50px;
+    font-size: 20px;
+    font-weight: 900;
+    width: 500px;
+    overflow: scroll;
+}
+
+.descriptionorder__item{
+    display: flex;
+    margin-bottom: 15px;
+}
+
+.descriptionorder__item p{
+    border-bottom: 2px solid #39ff14;
+    margin-right: 20px;
+    width: 180px;
+}
+
+.descriptionorder__item div{
+    width: 300px;
+}
+
+.descriptionorder__link{
+    margin-left: 5px;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+.descriptionorder__link:hover{
+    color: #39ff14;
+}
+
+.order__imageloop{
+    width: 20px;
+    margin-left: 950px;
+    margin-top: -30px;
+    position: absolute;
+    cursor: pointer;
+}
+
+.order__view_tools{
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.bouquets{
+    background-color: rgba(62,87,176,.5);
+    width: 100vw;
+    height: 100vh;
+}
+
+.bouquets__container{
+    width: 1350px;
+    height: 100%;
+    margin: 0 auto;
+    display: flex;
+}
+
+.bouquets__body{
+    background-color: azure;
+    width: 100%;
+    height: 90%;
+    border-radius: 35px;
+    margin-top: 50px;
+    border: 2px solid #39ff14;
+    display: flex;
+}
+
+.bouquets__menu{
+    background-color: azure;
+    width: 300px;
+    height: 105%;
+    display: flex;
+    border-radius: 35px;
+    border: 2px solid #39ff14;
+    margin-top: -20px;
+}
+
+.bouquets__paragraph{
+    font-size: 30px;
+}
+
+.bouquets__flower{
+    width: 20px;
+    height: 20px;
+    margin-right: 5px;
+    margin-top: 5px;
+    cursor: pointer;
+}
+
+.bouquets__search{
+    font-size: 15px;
+    background-color:azure;
+    width: 150px;
+    display: flex;
+    margin-left: 230px;
+    margin-bottom: -40px;
+}
+
+.bouquets__container_flex{
+    display: flex;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+
+.bouquets__form_search{
+    font-size: 15px;
+    background-color:azure;
+    width: 170px;
+    height: 30px;
+    display: flex;
+}
+
+.bouquets__item{
+    font-family: SignPainter;
+    padding-left: 50px;
+    width: 700px;
+    font-size: 20px;
+}
+
+.flower__list{
+    overflow: scroll;
+    padding-left: 25px;
+    position: relative;
+    border-top: 1px solid;
+}
+
+.flower__info{
+    display: inline-block;
+    flex-wrap: wrap;
+    width: 160px;
+    word-wrap: break-word;
+    max-height: 100%;
+    justify-content: space-between;
+    margin-top: 15px;
+    margin-right: 45px;
+}
+
+.flower__info img{
+    margin-bottom: 10px;
+}
+
+.img__block{
+    width: 170px;
+    height: 200px;
+}
+  
+.flower__img{
+    width: 100%;
+    height:100%;
+    object-fit: cover;
+    border-radius: 15px;
+}
+
+.flower__deleted{
+    cursor: pointer;
+}
+.flower__deleted:hover{
+    margin-top: 70px;
+    width:60px;
+}
+.bouquets__btn{
+    width: 16px;
+    height: 16px;
+    margin-left: 10px;
+    margin-top: 5px;
+    cursor: pointer;
+}
+
+.btn__menu{
+    margin-top: 5px;
+    margin-left: 40px;
+    cursor: pointer;
+}
+
+.menu__item{
+    margin-top: 5px;
+}
+
+.add_client{
+    margin-top: 55px;
+    font-family: SignPainter;
+    width: 350px;
+    height: 570px;
+    overflow: scroll;
+}
+
+.add_client__title{
+    text-transform: uppercase;
+    font-size: 25px;
+}
+
+.field{
+    margin-top: 10px;
+    font-size: 20px;
+    font-family: SignPainter;
+}
+
+.control{
+    margin-top: 10px;
+    display: flex;
+}
+
+.control input[type=text]{
+    background-color: transparent;
+    border: 1px solid #39ff14;
+    font-size: 20px;
+    font-family: SignPainter;
+    height: 30px;
+    padding-left: 5px;
+    position: relative;
+}
+
+.control input[type=number]{
+    background-color: transparent;
+    border: 1px solid #39ff14;
+    font-size: 20px;
+    font-family: SignPainter;
+    height: 30px;
+    padding-left: 5px;
+    width: 45px;
+    position: relative;
+}
+
+
+
+.control__col{
+    width: 50px;
+    height: 35px;
+}
+
+.input_file{
+    border: none !important;
+}
+
+.btn{
+    font-family: SignPainter;
+    font-size: 20px;
+    padding: 5px 10px;
+    background-color: #212E23;
+    color: white;
+    border-radius: 30px;
+}
+
+.add_client__flex{
+    margin-left: 50px;
+    margin-bottom: 30px;
+    display: flex;
+}
+
+.control__addimg{
+    width: 17px;
+    height: 17px;
+    margin-top: 7px;
+    margin-left: 7px;
+    cursor: pointer;
+}
+
+.flower__change{
+    width: 170px;
+    height: 200px;
+    border-radius: 15px;
+    margin-top: -200px;
+    background-color: rgba(52, 52, 52, 0.8);
+    position: absolute;
+    display: none;
+}
+
+.flower__change img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50%;
+}
+
+#form_file_upload {
+    height: 5rem;
+    width: 14rem;
+    max-width: 100%;
+    text-align: center;
+    position: relative;
+  }
+  
+  #input_file_upload {
+    display: none;
+  }
+  
+  #label_file_upload {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-width: 2px;
+    border-radius: 1rem;
+    border-style: dashed;
+    border-color: #39ff14;
+    background-color: #f8fafc;
+    font-family: 'Oswald', sans-serif;
+  }
+  
+  .upload_button {
+    cursor: pointer;
+    font-size: 1rem;
+    border: none;
+    background-color: transparent;
+  }
+  
+  .upload_button:hover {
+    text-decoration-line: underline;
+    background-color: transparent;
+  }
+  
+  .imageDisplay{
+    width: 140px;
+    height: 140px;
+    position: relative;
+    margin-bottom: 20px;
+  }
+
+  .imageDisplay img{
+    width: 100%;
+    border-radius: 10px;
+  }
+
+  .add_client__author{
+    font-size: 20px;
+    cursor: pointer;
+    margin-left: 40px;
+    display: block;
+    border-radius: 30px;
+    background-color: #212E23;
+    color: azure;
+    font-family: SignPainter;
+    padding: 5px;
+    margin-bottom: 20px;
+}
+  
+  .add_client__author:hover{
+    color: black;
+    background-color: azure;
+  }
+
+  .add_client__span{
+    font-size: 20px;
+    margin-left: 135px;
+    margin-bottom: 20px;
+  }
+
+  .add_client__client{
+    font-size: 20px;
+    cursor: pointer;
+    margin-left: 80px;
+    display: block;
+    border-radius: 30px;
+    background-color: #212E23;
+    color: azure;
+    font-family: SignPainter;
+    padding: 5px 20px;
+    margin-bottom: 20px;
+}
+  
+  .add_client__client:hover{
+    color: black;
+    background-color: azure;
+  }
+
+  .control__image{
+    transform: rotate(270deg);
+    margin-left: 165px;
+    margin-top: -22px;
+    cursor: pointer;
+  }
+
+  .field__image{
+    margin-bottom: 10px;
+  }
+
+  .field__image img{
+    width: 150px;
+    height: 150px;
+    border-radius: 30px;
+  }

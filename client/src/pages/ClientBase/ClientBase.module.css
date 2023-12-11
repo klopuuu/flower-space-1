@@ -1,0 +1,210 @@
+.clientbase{
+    background-color: rgba(62,87,176,.5);
+    width: 100vw;
+    height: 100vh;
+}
+
+.clientbase__container{
+    width: 1350px;
+    height: 100%;
+    margin: 0 auto;
+    display: flex;
+}
+
+.clientbase__body{
+    background-color: azure;
+    width: 100%;
+    height: 90%;
+    border-radius: 35px;
+    margin-top: 50px;
+    border: 2px solid #39ff14;
+    display: flex;
+}
+
+.clientbase__menu{
+    background-color: azure;
+    width: 300px;
+    height: 105%;
+    display: flex;
+    border-radius: 35px;
+    border: 2px solid #39ff14;
+    margin-top: -20px;
+}
+
+.client__data{
+    display: flex;
+    padding-bottom: 5px;
+    padding-left: 5px;
+    border-bottom: 1px solid;
+}
+
+.client__data > *:first-child{
+   margin-left: 67px;
+}
+
+.client__data p:not(:last-child){
+    margin-right: 105px;
+}
+
+.clientbase__client{
+    padding-left: 50px;
+    width: 750px;
+    font-size: 20px;
+    font-family: SignPainter;
+}
+
+.client__paragraph{
+    font-size: 30px;
+}
+
+.client__info{
+    display: flex;
+    margin-bottom: 10px;
+    border-top: 1px solid;
+    padding-top: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+    min-height: 30px;
+    text-align: center;
+}
+
+.client__info:hover{
+    background-color: rgba(52, 52, 52, 0.8);
+    color:#39ff14;
+}
+
+.client__info p{
+    display: inline-block;
+    flex-wrap: wrap;
+    width: 160px;
+    word-wrap: break-word;
+    max-height: 100%;
+    justify-content: space-between;
+}
+
+.client__list{
+    height: 450px;
+    overflow: scroll;
+}
+
+.add_client{
+    margin-top: 55px;
+    font-family: SignPainter;
+}
+
+.add_client__title{
+    text-transform: uppercase;
+    margin-left: 50px;
+    margin-bottom: 30px;
+    font-size: 25px;
+}
+
+.info{
+    font-size: 25px;
+    font-family: SignPainter;
+    margin-top: 35px;
+    margin-bottom: 45px;
+}
+
+.info__item{
+    margin-left: 20px;
+    font-size: 20px;
+    font-family: SignPainter;
+    margin-top: 30px;
+    text-transform: uppercase;
+}
+
+.item{
+    border-bottom: 2px solid #39ff14;
+    margin-right: 10px;
+}
+
+.icon__update{
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+}
+
+.field{
+    margin-top: 10px;
+    font-size: 20px;
+    font-family: SignPainter;
+}
+
+.btn{
+    font-family: SignPainter;
+    font-size: 20px;
+    padding: 5px 10px;
+    background-color: #212E23;
+    color: white;
+    border-radius: 30px;
+}
+
+.info__update{
+    font-size: 25px;
+    font-family: SignPainter;
+    margin-top: 35px;
+    margin-bottom: 30px;
+}
+
+.control input{
+    background-color: transparent;
+    border: 1px solid #39ff14;
+    font-size: 20px;
+    font-family: SignPainter;
+    height: 30px;
+    padding-left: 5px;
+}
+
+.control{
+    margin-top: 10px;
+}
+
+.client__delete{
+    width: 15px;
+    height: 15px;
+    margin-right: 10px;
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+.client__update{
+    width: 15px;
+    height: 15px;
+    cursor: pointer;
+}
+
+.search_flower{
+    width: 20px;
+    height: 20px;
+    margin-right: 5px;
+    margin-top: 5px;
+    cursor: pointer;
+}
+
+.close_flower{
+    width: 15px;
+    height: 15px;
+    margin-left: -20px;
+    margin-top: 8px;
+    cursor: pointer;
+    position: relative;
+}
+
+.form_search{
+    font-size: 15px;
+    background-color:azure;
+    width: 150px;
+    display: flex;
+}
+
+.client__search{
+    margin-left: 450px;
+    display: flex;
+}
+
+.container_flex{
+    display: flex;
+    margin-top: 50px;
+    margin-bottom: 35px;
+}
