@@ -1,0 +1,36 @@
+const Router = require('express')
+const router = new Router()
+
+const user = require('./userRouter')
+const order = require('./ordersRouter')
+const bouquet = require('./bouquetRouter')
+const composition = require('./compositionRouter')
+const flowers = require('./flowersRouter')
+const hisorders = require('./historyorderRouter')
+const clientbase = require('./clientbaseRouter')
+const receiving = require('./receivingRouter')
+const statusord = require('./statusorderRouter')
+const category = require('./categoryRouter')
+const bouquetcategory = require('./bouquetcategoryRouter')
+const guideflower = require('./guideflowerRouter')
+const inspiration =  require('./inspirationRouter')
+const pdfgenerate = require('./savepdfRouter')
+
+
+router.use('/user', user)
+router.use('/order', order)
+router.use('/bouquet', bouquet)
+router.use('/composition', composition)
+router.use('/flowers', flowers)
+router.use('/historyord', hisorders)
+router.use('/clientbase', clientbase)
+router.use('/receiving', receiving)
+router.use('/statusord', statusord)
+router.use('/category', category)
+router.use('/bouquetcategory', bouquetcategory)
+router.use('/guideflower', guideflower)
+router.use('/inspiration', inspiration)
+router.use('/pdf', pdfgenerate)
+
+
+module.exports = router
